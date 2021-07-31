@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Image.asset('assets/images/logo.png'),
-        // ),
+        appBar: AppBar(
+          title: Image.asset('assets/images/logo.png'),
+        ),
         body: Example2(),
       ),
     );
